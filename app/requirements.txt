@@ -1,0 +1,6 @@
+torch==2.5.1
+transformers
+sentencepiece
+scikit-learn==1.6.1
+joblib
+numpy==2.1.3

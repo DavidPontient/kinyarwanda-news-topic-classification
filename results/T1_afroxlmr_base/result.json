@@ -1,0 +1,42 @@
+{
+  "name": "T1_afroxlmr_base",
+  "model": "Davlan/afro-xlmr-base",
+  "max_len": 256,
+  "lr": 2e-05,
+  "epochs": 3,
+  "batch_size": 16,
+  "weighted_loss": false,
+  "best_epoch": 3,
+  "best_val_macro_f1": 0.689,
+  "test_accuracy": 0.7834,
+  "test_macro_precision": 0.7058,
+  "test_macro_recall": 0.6731,
+  "test_macro_f1": 0.6666,
+  "train_minutes": 7.8,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.3887,
+      "val_accuracy": 0.7336,
+      "val_macro_precision": 0.5595,
+      "val_macro_recall": 0.454,
+      "val_macro_f1": 0.4578
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.777,
+      "val_accuracy": 0.7837,
+      "val_macro_precision": 0.7723,
+      "val_macro_recall": 0.6162,
+      "val_macro_f1": 0.6462
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6021,
+      "val_accuracy": 0.7848,
+      "val_macro_precision": 0.7836,
+      "val_macro_recall": 0.6523,
+      "val_macro_f1": 0.689
+    }
+  ]
+}

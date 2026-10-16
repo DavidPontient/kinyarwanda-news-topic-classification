@@ -1,0 +1,42 @@
+{
+  "name": "T3_xlmr_base",
+  "model": "FacebookAI/xlm-roberta-base",
+  "max_len": 256,
+  "lr": 2e-05,
+  "epochs": 3,
+  "batch_size": 16,
+  "weighted_loss": false,
+  "best_epoch": 3,
+  "best_val_macro_f1": 0.4602,
+  "test_accuracy": 0.6877,
+  "test_macro_precision": 0.5375,
+  "test_macro_recall": 0.449,
+  "test_macro_f1": 0.4573,
+  "train_minutes": 7.7,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.8929,
+      "val_accuracy": 0.5797,
+      "val_macro_precision": 0.4005,
+      "val_macro_recall": 0.2972,
+      "val_macro_f1": 0.2942
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.2814,
+      "val_accuracy": 0.6745,
+      "val_macro_precision": 0.4404,
+      "val_macro_recall": 0.4117,
+      "val_macro_f1": 0.4092
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.0284,
+      "val_accuracy": 0.7012,
+      "val_macro_precision": 0.5177,
+      "val_macro_recall": 0.455,
+      "val_macro_f1": 0.4602
+    }
+  ]
+}

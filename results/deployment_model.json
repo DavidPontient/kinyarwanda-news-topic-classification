@@ -1,0 +1,12 @@
+{
+  "run": "T1_afroxlmr_base",
+  "pretrained_model": "Davlan/afro-xlmr-base",
+  "max_len": 256,
+  "best_epoch": 3,
+  "epochs": 3,
+  "weighted_loss": false,
+  "val_macro_f1": 0.689,
+  "test_accuracy": 0.7834,
+  "test_macro_f1": 0.6666,
+  "weights_file": "/content/drive/MyDrive/kinyarwanda_news_project/transformer_runs/T1_afroxlmr_base/best_model.pt"
+}

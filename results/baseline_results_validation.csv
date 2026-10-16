@@ -1,0 +1,6 @@
+experiment,val_accuracy,val_macro_precision,val_macro_recall,val_macro_f1,features,seconds
+B1 word 1gram + LogReg,0.7703,0.7881,0.6417,0.6888,66375,53
+B2 word 1-2gram + LogReg,0.7781,0.7994,0.637,0.6856,274356,118
+B3 word 1-2gram + LinearSVM,0.7949,0.7881,0.6671,0.7065,274356,17
+B4 char 3-5gram + LinearSVM,0.7904,0.7956,0.6807,0.7189,106923,60
+B5 char 3-5gram + LinearSVM balanced,0.7915,0.7525,0.722,0.7324,106923,60

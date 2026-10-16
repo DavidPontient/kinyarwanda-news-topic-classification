@@ -1,0 +1,10 @@
+{
+  "articles": 8069,
+  "median_tokens": 589,
+  "p75_tokens": 852,
+  "p90_tokens": 1205,
+  "p95_tokens": 1563,
+  "share_over_128_percent": 98.0,
+  "share_over_256_percent": 93.2,
+  "share_over_512_percent": 60.3
+}

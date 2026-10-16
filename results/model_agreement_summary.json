@@ -1,0 +1,8 @@
+{
+  "best_fine_tuned_run": "T1_afroxlmr_base",
+  "both_correct": 1464,
+  "both_wrong": 285,
+  "only_baseline_correct": 154,
+  "only_fine_tuned_correct": 124,
+  "test_articles": 2027
+}

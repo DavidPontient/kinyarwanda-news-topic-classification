@@ -1,0 +1,15 @@
+label_name,train,test,train_share_%
+politics,1705,409,19.0
+entertainment,1430,355,15.9
+sport,1420,311,15.8
+health,1101,256,12.3
+economy,1057,227,11.8
+relationship,639,123,7.1
+religion,570,131,6.4
+technology,212,41,2.4
+history,175,54,2.0
+culture,173,42,1.9
+education,152,34,1.7
+environment,122,16,1.4
+fashion,109,20,1.2
+tourism,101,8,1.1

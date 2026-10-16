@@ -1,0 +1,12 @@
+{
+  "best_baseline": "B5 char 3-5gram + LinearSVM balanced",
+  "raw_train_size": 17014,
+  "raw_test_size": 4254,
+  "train_size": 8069,
+  "val_size": 897,
+  "test_size": 2027,
+  "test_accuracy": 0.7982,
+  "test_macro_precision": 0.7166,
+  "test_macro_recall": 0.7381,
+  "test_macro_f1": 0.7189
+}

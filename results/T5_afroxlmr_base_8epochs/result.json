@@ -1,0 +1,82 @@
+{
+  "name": "T5_afroxlmr_base_8epochs",
+  "model": "Davlan/afro-xlmr-base",
+  "max_len": 256,
+  "lr": 2e-05,
+  "epochs": 8,
+  "batch_size": 16,
+  "weighted_loss": false,
+  "best_epoch": 5,
+  "best_val_macro_f1": 0.6847,
+  "test_accuracy": 0.7745,
+  "test_macro_precision": 0.6813,
+  "test_macro_recall": 0.6838,
+  "test_macro_f1": 0.6762,
+  "train_minutes": 20.3,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.6138,
+      "val_accuracy": 0.728,
+      "val_macro_precision": 0.5213,
+      "val_macro_recall": 0.4315,
+      "val_macro_f1": 0.4294
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.8487,
+      "val_accuracy": 0.7781,
+      "val_macro_precision": 0.7622,
+      "val_macro_recall": 0.6258,
+      "val_macro_f1": 0.6591
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6346,
+      "val_accuracy": 0.7793,
+      "val_macro_precision": 0.7497,
+      "val_macro_recall": 0.6455,
+      "val_macro_f1": 0.679
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.4943,
+      "val_accuracy": 0.7703,
+      "val_macro_precision": 0.6978,
+      "val_macro_recall": 0.6375,
+      "val_macro_f1": 0.6531
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.3809,
+      "val_accuracy": 0.7748,
+      "val_macro_precision": 0.7448,
+      "val_macro_recall": 0.6562,
+      "val_macro_f1": 0.6847
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.2996,
+      "val_accuracy": 0.7692,
+      "val_macro_precision": 0.7159,
+      "val_macro_recall": 0.6574,
+      "val_macro_f1": 0.6701
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.2391,
+      "val_accuracy": 0.7715,
+      "val_macro_precision": 0.7164,
+      "val_macro_recall": 0.6557,
+      "val_macro_f1": 0.6737
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.2053,
+      "val_accuracy": 0.7614,
+      "val_macro_precision": 0.6828,
+      "val_macro_recall": 0.6451,
+      "val_macro_f1": 0.6536
+    }
+  ]
+}
